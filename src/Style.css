@@ -1,0 +1,190 @@
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body{
+  height: 100vh;
+  max-width: 100vw;
+}
+
+.navbar{
+  display: flex;
+  align-items: center;
+  background-color: rgb(126, 50, 50);
+}
+
+#cart{
+  width: 60px;
+}
+
+.cantidad_items{
+  background-color: blue;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  position: relative;
+  bottom: 20px;
+  right: 10px;
+  text-align: center;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+#texto_neon{
+  width: 200px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.botones button{
+  font-size: 20px;
+  color: #fff;
+}
+
+.botones button:hover{
+  color: #f04040;
+  text-decoration: none;
+}
+
+
+.items_cantidad{
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.welcome{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.welcome p{
+  font-size: 50px;
+}
+
+.card-footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.botones_navbar{
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 150px 0 60px;    
+  width: 100vh;
+}
+
+#welcome_nimi{
+  width: 500px;
+  margin: 30px 0; 
+}
+
+.form_cart{
+  border: solid rgb(0, 0, 0);
+  border-radius: 10px;
+  width: 30%;
+  padding: 15px;
+}
+
+.cart_{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px;
+  gap: 50px;
+}
+
+.cart_ h2{
+  margin-top: 50px;
+  font-size: 50px;
+}
+
+.form_cart label{
+  margin: 5px 0;
+}
+
+.footer{
+  background-color: rgba(120, 120, 120, 0.1);
+  height: 200px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  color: rgb(0, 0, 255);
+  margin-top: 20px;
+  padding-top: 15px;
+  background-color: black;
+}
+
+.footer .networks i{
+  padding: 10px;
+  font-size: 30px;
+}
+
+.footer .aboutUs {
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+}
+
+.footer .footer_categories{
+  display: flex;
+  flex-direction: column;
+}
+
+.footer .footer_networks{
+  display: flex;
+  flex-direction: column;
+}
+
+.footer .footer_contact{
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+}
+
+.footer h2{
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.footer h3{
+  font-size: 20px;
+}
+
+.contact_box{
+  background-color: rgb(0, 0, 255);
+  height: 400px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 35px;
+  padding: 60px;
+  margin: 30px 0;
+  color: #fff;
+}
+
+.contact_box .text_area{
+  background-color: #fff;
+  width: 40%;
+  height: 50px;
+  border-radius: 10px;
+  color: rgb(0, 0, 0);
+}
+
+.contact_box #title{
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.boton_enviar{
+color: rgb(0, 0, 0);
+}
+

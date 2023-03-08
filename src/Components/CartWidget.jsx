@@ -1,12 +1,15 @@
-import React from 'react'
+import { Flex } from "@chakra-ui/react"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {faCartShopping } from "@fortawesome/free-solid-svg-icons";
 
-const CartWidget  = () => {
+const CartWidget = ({}) => {
   return (
-    <div className='div__cart'>
-        <span class="material-symbols-outlined">shopping_cart</span>
-        <span>3</span>
-    </div>
-    
+    <>       
+    <Flex>
+            <i><FontAwesomeIcon icon={faCartShopping} color="#fff" fontSize={35} /></i>
+            <p className="cantidad_items">{1}</p>
+    </Flex>
+    </>
   )
 }
 
