@@ -243,7 +243,6 @@ body{
   align-items: center;
   justify-content: space-between;
   gap: 50px;
-  height: 500px;
 }
 
 .tag_total_amount{
