@@ -1,7 +1,6 @@
 {
   "name": "ecommerce",
   "private": true,
-  "homepage": "https://sebastianalfie.github.io/My-ecommerce",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
