@@ -39,7 +39,7 @@ const NavBar = () => {
                     colorScheme="light"
                     rightIcon={<ChevronDownIcon />}
                   >
-                    Remeras
+                    Vestimenta
                   </MenuButton>
                   <MenuList bg="#383838">
                     <Flex>
@@ -63,21 +63,8 @@ const NavBar = () => {
                       </MenuItem>
                     </Link>  
                     </Flex>
-                  </MenuList>
-                </Menu>
-                <Menu className="menu_nav">
-                  <MenuButton
-                    bg="light"
-                    as={Button}
-                    colorScheme="light"
-                    rightIcon={<ChevronDownIcon />}
-                  >
-                    Pantalones
-                  </MenuButton>
-                  <MenuList bg="#383838">
-                    <MenuItem bg="ligth">Jeans</MenuItem>
                     <Link to={`/category/${"Pantalones"}`}>
-                      <MenuItem bg="ligth">pantalones</MenuItem>
+                      <MenuItem bg="ligth">Pantalones</MenuItem>
                     </Link>
                   </MenuList>
                 </Menu>
@@ -88,13 +75,15 @@ const NavBar = () => {
                     colorScheme="light"
                     rightIcon={<ChevronDownIcon />}
                   >
-                    Medias
+                    Calzado
                   </MenuButton>
                   <MenuList bg="#383838">
                   <Link to={`/category/${"Medias"}`}>
                     <MenuItem bg="ligth">Medias</MenuItem>
                     </Link>
+                    <Link to={`/category/${"Soquetes"}`}>
                     <MenuItem bg="ligth">Soquetes</MenuItem>
+                    </Link>
                   </MenuList>
                 </Menu>
                 <Link to={"/contact"}>

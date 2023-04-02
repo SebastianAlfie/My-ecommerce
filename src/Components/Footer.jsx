@@ -11,7 +11,7 @@ const Footer = () => {
       <div className="aboutUs">
         <h2>Sobre nosotros</h2>
         <div>
-          Somos una tienda que se dedica a la venta de todo tipo de ropa, desde medias hasta sombreros.
+          Somos una tienda que se dedica a la venta de todo tipo de ropa, desde medias hasta camisas.
         </div>
       </div>
       <div className="footer_categories">
@@ -50,9 +50,9 @@ const Footer = () => {
         <Flex alignItems="center" gap={2}>
           <FontAwesomeIcon icon={faEnvelope} fontSize={22} />
           <button
-            onClick={() => (window.location = "mailto:asdfasdf@gmail.com")}
+            onClick={() => (window.location = "mailto:sebiari96@gmail.com")}
           >
-            asdfasdf@gmail.com
+            sebiari96@gmail.com
           </button>
         </Flex>
         <Link target="_blank" to={"https://goo.gl/maps/kjMzH9j4pm9SXN6d9"}>

@@ -1,7 +1,0 @@
-[
-    {"id": 1, "name": "Abrigo ", "description": "asdfasdgf", "description_short": "Abrigo Negro", "price":1000, "stock": 10, "category": "Abrigos", "image": "https://media.solodeportes.com.ar/media/catalog/product/cache/7c4f9b393f0b8cb75f2b74fe5e9e52aa/c/a/camperon-de-abrigo-con-capucha-lacoste-negro-40002h196021031-1.jpg"},
-    { "id": 5, "name": "Medias", "description": "asdfasfgdfgasdf", "description_short": "Medias blancas","price":500, "stock": 22, "category": "Medias", "image": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/547/082/products/medias-white-11-af910f545f6fd9632216433916288915-640-0.jpg"},
-    {"id": 3, "name": "Camisa", "description": "asdfasdg", "description_short": "Camisa blanca", "price":1500, "stock": 8, "category": "Camisas", "image": "https://media.vogue.es/photos/61dd83907ced38e3aeadcdf0/master/w_1002,h_1506,c_limit/Captura%20de%20pantalla%202022-01-11%20a%20las%2014.17.33.png"},
-    {"id": 4, "name": "Pantalon", "description": "asdfasfgdfg", "description_short": "Pantalon blanco","price":1750, "stock": 12, "category": "Pantalones", "image": "https://media.vogue.es/photos/5cc7503a34347c0de414158d/master/w_1800,h_2700,c_limit/pantalones_blancos_1849.jpg"},
-    {"id": 2, "name": "Camiseta", "description": "zxcvzxcvz", "description_short": "Camiseta negra", "price":1250, "stock": 14, "category": "Camisetas", "image": "https://static.vecteezy.com/system/resources/previews/012/628/220/non_2x/plain-black-t-shirt-on-transparent-background-free-png.png"}
-  ]
